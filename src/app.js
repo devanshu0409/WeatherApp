@@ -37,7 +37,7 @@ app.get('', (req, res) => {
 //get mapping for /about
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'Want to kow about us?',
+        title: 'About Us',
         name : 'Devanshu'
     })
 })
